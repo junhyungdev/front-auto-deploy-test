@@ -1,0 +1,10 @@
+#studentSelectBox {
+  height: 56px;
+  padding: auto;
+  margin-bottom: 10px;
+}
+
+#disabled_deleteButton {
+  color: gray;
+  opacity: 1;
+}

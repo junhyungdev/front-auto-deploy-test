@@ -1,0 +1,27 @@
+.btn_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.modal_open_button,
+.modal_close_btn {
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.modal_container {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_content {
+  background-color: #ffffff;
+  width: 350px;
+  height: 50%;
+  padding: 15px;
+}
