@@ -32,6 +32,8 @@ jobs: # job 시작 명시(모든 job의 묶음)
         
       - name: react build
         run: npm run build
+        env:
+          CI: ""  
 
 
       - name: AWS credential 설정
